@@ -1,12 +1,12 @@
-# Roteiro kickoff NexoClima
+# Roteiro Kickoff — NexoClima
 
 ---
 
 ## 1. Objetivo da apresentação
 
-Iremos utilizar técnicas de **data storytelling** para mostrar não apenas o que o sistema faz, mas principalmente **qual problema ele resolve e por que isso importa**.
+A apresentação deve mostrar não apenas o que o NexoClima faz, mas principalmente **qual problema estamos tentando resolver e por que ele é importante**.
 
-A narrativa seguirá o fluxo:
+A apresentação seguirá uma sequência simples:
 
 **Contexto → Problema → Impacto → Solução → Demonstração → Benefícios → Encerramento**
 
@@ -26,17 +26,15 @@ Entretanto, as informações necessárias para compreender esses cenários estã
 
 O **NexoClima** surge com o propósito de conectar essas informações em um único ambiente e transformá-las em conhecimento útil para apoiar a **Vigilância em Saúde do Recife**.
 
-### Técnica de data storytelling
+### Objetivo dessa etapa
 
-**Contextualização + identificação do problema**
-
-Primeiro apresentamos o cenário para que o público entenda **por que os dados são importantes**.
+Apresentar o cenário e fazer o público entender **por que ter acesso às informações certas, no momento certo, é importante**.
 
 ---
 
 # 3. O desafio
 
-O desafio pode ser apresentado como uma sequência de causa e efeito:
+O problema deve ser apresentado como uma sequência:
 
 ```text
 Dados dispersos
@@ -46,7 +44,7 @@ Consolidação manual
 Visão fragmentada
       ↓
 Decisões sob pressão
-```
+````
 
 ### Dados dispersos
 
@@ -64,13 +62,9 @@ A ausência de uma visão integrada dificulta a identificação rápida de risco
 
 Durante uma emergência, atrasos na informação podem reduzir a agilidade da resposta institucional.
 
-### Técnica de data storytelling
+### Objetivo dessa etapa
 
-**Causa → consequência**
-
-Os problemas não devem ser apresentados como pontos isolados.
-
-A ideia é mostrar que um problema leva ao outro:
+Mostrar que os problemas estão conectados.
 
 > **Dados espalhados → trabalho manual → falta de visão integrada → decisões mais lentas.**
 
@@ -86,6 +80,10 @@ Atualmente, dados meteorológicos, hidrológicos, epidemiológicos, assistenciai
 
 Esse cenário exige coleta e consolidação manual pelas equipes, tornando a análise mais lenta e dificultando a identificação rápida de riscos e áreas prioritárias.
 
+### Mensagem que precisa ficar
+
+> **O problema não está apenas em onde os dados estão, mas no tempo e no esforço necessários para transformá-los em informação útil.**
+
 ---
 
 # 5. A solução
@@ -98,11 +96,19 @@ O objetivo do NexoClima é integrar diferentes fontes de **dados climáticos, te
 
 A partir dessa integração, a solução busca apoiar:
 
-* monitoramento de riscos e vulnerabilidades;
-* identificação de áreas prioritárias;
-* acompanhamento de eventos climáticos extremos;
-* tomada de decisões mais rápidas;
-* ações orientadas por dados.
+* Monitoramento de riscos e vulnerabilidades;
+* Identificação de áreas prioritárias;
+* Acompanhamento de eventos climáticos extremos;
+* Tomada de decisões mais rápidas;
+* Ações orientadas por dados.
+
+### Objetivo dessa etapa
+
+Depois de apresentar o problema, mostrar que o NexoClima surge como resposta direta a essa dificuldade.
+
+A ideia é fazer a transição:
+
+> **“Se o problema é a fragmentação, nossa proposta é conectar essas informações.”**
 
 ---
 
@@ -143,25 +149,33 @@ Geração mais ágil de informações e relatórios.
 
 Registro e monitoramento das respostas adotadas.
 
----
+### Objetivo dessa etapa
 
-**Problema → solução**
-
-Evitar apresentar as funcionalidades apenas como uma lista de recursos.
+Não apresentar as funcionalidades apenas como uma lista.
 
 A lógica deve ser:
 
-> **“Temos este problema. Por isso, criamos esta funcionalidade.”**
+> **Problema → resposta**
+
+Exemplo:
+
+> “Os dados estão dispersos. Por isso, temos a integração de dados.”
+
+> “É difícil visualizar onde estão as áreas vulneráveis. Por isso, temos os mapas.”
+
+> “Situações críticas precisam ser identificadas rapidamente. Por isso, temos os alertas.”
 
 ---
 
 # 7. Demonstração
 
-## O kickoff deve ser apresentada como um cenário de uso
+## Apresentar o kickoff como um cenário de uso
 
 A demonstração não deve ser apenas um tour pelas telas.
 
-O objetivo é responder à seguinte pergunta:
+O objetivo é mostrar **como o sistema seria utilizado diante de uma situação real**.
+
+### Pergunta que guia a demonstração
 
 > **Como o NexoClima ajuda uma equipe técnica a sair de dados dispersos para uma visão mais clara do cenário?**
 
@@ -187,55 +201,7 @@ Ação
 
 ---
 
-## 7.1 Visualização do cenário
-
-Mostrar o **dashboard**.
-
-### Fala
-
-> “Primeiro, a equipe consegue ter uma visão geral do cenário em um único ambiente.”
-
----
-
-## 7.2 Identificação de áreas prioritárias
-
-Mostrar o **mapa inteligente**.
-
-### Fala
-
-> “Em seguida, os dados territorializados ajudam a identificar regiões que apresentam maior vulnerabilidade ou risco.”
-
----
-
-## 7.3 Identificação de situações críticas
-
-Mostrar os **alertas automáticos**.
-
-### Fala
-
-> “Quando determinados parâmetros são atingidos, os alertas ajudam a destacar situações que precisam de atenção.”
-
----
-
-## 7.4 Comunicação
-
-Mostrar os **boletins automáticos**.
-
-### Fala
-
-> “A partir dessas informações, a equipe consegue gerar informações mais organizadas para apoiar a comunicação e a tomada de decisão.”
-
----
-
-## 7.5 Acompanhamento
-
-Mostrar o **registro das ações**.
-
----
-
 # 8. Como contar a história durante a demonstração
-
-A demonstração deve seguir esta sequência:
 
 ### Cenário
 
@@ -265,13 +231,27 @@ A demonstração deve seguir esta sequência:
 
 > “A equipe registra e acompanha a resposta.”
 
-Essa sequência demonstra o **valor do sistema**, e não apenas suas telas.
+### Objetivo dessa etapa
+
+Mostrar o sistema funcionando dentro de uma situação.
+
+A demonstração deve responder:
+
+> **O que aconteceu?**
+
+> **O que o sistema mostrou?**
+
+> **O que a equipe conseguiu perceber?**
+
+> **Que decisão isso pode apoiar?**
+
+> **Como essa ação pode ser acompanhada?**
 
 ---
 
-# 9. Antes x Depois
+# 9. Antes × Depois
 
-Uma forma de reforçar o impacto da solução é apresentar a mudança proporcionada pelo NexoClima.
+Uma forma de reforçar o impacto da solução é mostrar a mudança proporcionada pelo NexoClima.
 
 | Antes do NexoClima                       | Com o NexoClima                    |
 | ---------------------------------------- | ---------------------------------- |
@@ -300,12 +280,69 @@ O ganho está em **diminuir o esforço necessário para transformar esses dados 
 
 Com uma visão integrada, a equipe consegue:
 
-* compreender melhor o cenário;
-* identificar situações prioritárias;
-* localizar áreas vulneráveis;
-* acompanhar eventos climáticos;
-* receber alertas;
-* produzir informações com mais agilidade;
-* acompanhar as ações realizadas.
+* Compreender melhor o cenário;
+* Identificar situações prioritárias;
+* Localizar áreas vulneráveis;
+* Acompanhar eventos climáticos;
+* Receber alertas;
+* Produzir informações com mais agilidade;
+* Acompanhar as ações realizadas.
 
-> ### **Dados que conectam informação, cenário e decisão.**
+### Mensagem principal
+
+> **O NexoClima aproxima o dado da decisão.**
+
+---
+
+# 11. Encerramento
+
+A apresentação deve terminar retomando o problema apresentado no início.
+
+---
+
+# 12. Fluxo completo da apresentação
+
+```text
+┌─────────────────────┐
+│      CONTEXTO       │
+│ Emergências exigem  │
+│ decisões rápidas    │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│      PROBLEMA       │
+│ Dados espalhados    │
+│ em várias fontes    │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│      IMPACTO        │
+│ Mais esforço e      │
+│ menos agilidade     │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│      SOLUÇÃO        │
+│     NexoClima       │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│    DEMONSTRAÇÃO     │
+│ Dados → percepção   │
+│ → decisão → ação    │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│      BENEFÍCIO      │
+│ Informação mais     │
+│ próxima da decisão  │
+└──────────┬──────────┘
+           ↓
+┌─────────────────────┐
+│     ENCERRAMENTO    │
+│ Aproximar o dado    │
+│ da decisão          │
+└─────────────────────┘
+```
+
+---

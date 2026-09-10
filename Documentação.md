@@ -1,16 +1,14 @@
-# Roteiro da POC — NexoClima
-
-> **Inteligência de dados para emergências climáticas e saúde pública.**
+# Roteiro kickoff NexoClima
 
 ---
 
 ## 1. Objetivo da apresentação
 
-A apresentação da POC do **NexoClima** deve utilizar técnicas de **data storytelling** para mostrar não apenas o que o sistema faz, mas principalmente **qual problema ele resolve e por que isso importa**.
+Iremos utilizar técnicas de **data storytelling** para mostrar não apenas o que o sistema faz, mas principalmente **qual problema ele resolve e por que isso importa**.
 
 A narrativa seguirá o fluxo:
 
-**Contexto → Problema → Impacto → Solução → Demonstração da POC → Benefícios → Encerramento**
+**Contexto → Problema → Impacto → Solução → Demonstração → Benefícios → Encerramento**
 
 ### Mensagem central
 
@@ -28,16 +26,6 @@ Entretanto, as informações necessárias para compreender esses cenários estã
 
 O **NexoClima** surge com o propósito de conectar essas informações em um único ambiente e transformá-las em conhecimento útil para apoiar a **Vigilância em Saúde do Recife**.
 
-### Fala sugerida
-
-> “Quando acontece uma chuva intensa, uma inundação, um deslizamento ou uma onda de calor, a equipe responsável precisa tomar decisões rapidamente.
->
-> O problema é que as informações necessárias para entender o cenário normalmente estão espalhadas entre diferentes sistemas, plataformas e planilhas.
->
-> Então, antes mesmo de tomar uma decisão, existe outro problema: conseguir encontrar, reunir e interpretar essas informações.
->
-> É nesse contexto que surge o NexoClima.”
-
 ### Técnica de data storytelling
 
 **Contextualização + identificação do problema**
@@ -47,8 +35,6 @@ Primeiro apresentamos o cenário para que o público entenda **por que os dados 
 ---
 
 # 3. O desafio
-
-## Informação existe. O desafio é conectá-la a tempo.
 
 O desafio pode ser apresentado como uma sequência de causa e efeito:
 
@@ -78,16 +64,6 @@ A ausência de uma visão integrada dificulta a identificação rápida de risco
 
 Durante uma emergência, atrasos na informação podem reduzir a agilidade da resposta institucional.
 
-### Fala sugerida
-
-> “O nosso desafio começa justamente aqui: informação existe.
->
-> Temos dados meteorológicos, hidrológicos, epidemiológicos, assistenciais e territoriais.
->
-> Só que essas informações estão distribuídas em diferentes fontes.
->
-> Isso gera quatro problemas principais: dados dispersos, consolidação manual, visão fragmentada e decisões sob pressão.”
-
 ### Técnica de data storytelling
 
 **Causa → consequência**
@@ -110,20 +86,6 @@ Atualmente, dados meteorológicos, hidrológicos, epidemiológicos, assistenciai
 
 Esse cenário exige coleta e consolidação manual pelas equipes, tornando a análise mais lenta e dificultando a identificação rápida de riscos e áreas prioritárias.
 
-### Fala sugerida
-
-> “Então, o principal desafio que identificamos não é simplesmente ter acesso aos dados.
->
-> É conseguir conectar essas informações no momento em que elas são necessárias.
->
-> Hoje, a equipe precisa lidar com diferentes fontes e consolidar informações manualmente.
->
-> Isso torna a análise do cenário mais lenta e dificulta a identificação rápida de riscos e áreas prioritárias.
->
-> Em uma situação de emergência, esse tempo faz diferença.
->
-> Por isso, nossa proposta é reduzir justamente essa distância entre o dado disponível e a decisão.”
-
 ---
 
 # 5. A solução
@@ -141,32 +103,6 @@ A partir dessa integração, a solução busca apoiar:
 * acompanhamento de eventos climáticos extremos;
 * tomada de decisões mais rápidas;
 * ações orientadas por dados.
-
-### Fala sugerida
-
-> “É aqui que entra o NexoClima.
->
-> A proposta é centralizar informações essenciais em um único ambiente.
->
-> Em vez de a equipe precisar procurar informações em diferentes lugares, o sistema organiza esses dados para facilitar o acompanhamento do cenário.
->
-> E mais importante: não queremos apenas mostrar dados.
->
-> Queremos transformar esses dados em informação que ajude a equipe a entender o que está acontecendo e onde é necessário agir.”
-
-### Técnica de data storytelling
-
-**Virada narrativa**
-
-Até aqui mostramos o problema.
-
-A partir deste ponto, a história muda de:
-
-> **“Existe um problema.”**
-
-para:
-
-> **“Existe uma forma de reduzir esse problema.”**
 
 ---
 
@@ -207,23 +143,7 @@ Geração mais ágil de informações e relatórios.
 
 Registro e monitoramento das respostas adotadas.
 
-### Fala sugerida
-
-> “Cada funcionalidade da nossa solução foi pensada para responder diretamente a uma dificuldade identificada.
->
-> A integração de dados reduz a dispersão das informações.
->
-> Os dashboards permitem acompanhar o cenário de forma mais rápida.
->
-> Os mapas ajudam a visualizar onde estão os riscos e vulnerabilidades.
->
-> Os alertas chamam atenção para situações críticas.
->
-> Os boletins facilitam a geração de informações e relatórios.
->
-> E o acompanhamento de ações permite registrar e monitorar as respostas adotadas.”
-
-### Técnica de data storytelling
+---
 
 **Problema → solução**
 
@@ -235,9 +155,9 @@ A lógica deve ser:
 
 ---
 
-# 7. Demonstração da POC
+# 7. Demonstração
 
-## A POC deve ser apresentada como um cenário de uso
+## O kickoff deve ser apresentada como um cenário de uso
 
 A demonstração não deve ser apenas um tour pelas telas.
 
@@ -310,10 +230,6 @@ Mostrar os **boletins automáticos**.
 ## 7.5 Acompanhamento
 
 Mostrar o **registro das ações**.
-
-### Fala
-
-> “Por fim, o acompanhamento permite registrar as respostas adotadas e acompanhar sua evolução.”
 
 ---
 
@@ -391,176 +307,5 @@ Com uma visão integrada, a equipe consegue:
 * receber alertas;
 * produzir informações com mais agilidade;
 * acompanhar as ações realizadas.
-
-### Fala sugerida
-
-> “Com isso, o principal ganho da solução não é apenas ter vários dados em uma plataforma.
->
-> O ganho está em diminuir o esforço necessário para transformar esses dados em informação útil.
->
-> A equipe passa a ter uma visão mais integrada do cenário, consegue identificar situações prioritárias com mais facilidade e pode acompanhar as ações realizadas.
->
-> Ou seja: o NexoClima aproxima o dado da decisão.”
-
----
-
-# 11. Encerramento
-
-## A informação precisa chegar antes da decisão
-
-### Fala sugerida
-
-> “Emergências climáticas exigem respostas rápidas.
->
-> Informação para apoiar essas respostas já existe, mas muitas vezes está fragmentada entre diferentes fontes.
->
-> O NexoClima propõe conectar essas informações em um único ambiente e transformá-las em conhecimento útil para as equipes técnicas.
->
-> No fim, a nossa proposta é simples:
->
-> **menos tempo procurando informação e mais tempo entendendo o cenário e tomando decisões.**
->
-> Esse é o papel do NexoClima.”
-
----
-
-# 12. Mensagem final
-
-> ## **NexoClima**
->
-> **Conectando dados para apoiar decisões antes, durante e depois da emergência.**
-
----
-
-# 13. Divisão sugerida entre os integrantes
-
-## Integrante 1 — Contexto e problema
-
-* Apresentação do projeto
-* Cenário das emergências climáticas
-* Dados dispersos
-* Consolidação manual
-* Visão fragmentada
-
-## Integrante 2 — Impacto e solução
-
-* Decisões sob pressão
-* Impacto da fragmentação
-* Objetivo do NexoClima
-* Proposta da solução
-
-## Integrante 3 — Funcionalidades
-
-* Integração de dados
-* Dashboard
-* Mapas inteligentes
-* Alertas
-* Boletins
-* Acompanhamento de ações
-
-## Integrante 4 — Demonstração
-
-* Apresentação do cenário
-* Dashboard
-* Mapas
-* Alertas
-* Boletins
-* Acompanhamento
-
-## Integrante 5 — Encerramento
-
-* Benefícios
-* Valor da solução
-* Antes x depois
-* Mensagem final
-
----
-
-# 14. Técnicas de Data Storytelling utilizadas
-
-## Contexto antes da solução
-
-Primeiro apresentamos o cenário e o problema para que o público entenda **por que a solução é necessária**.
-
-## Causa e efeito
-
-A narrativa conecta os problemas:
-
-> **Dados dispersos → consolidação manual → visão fragmentada → decisões mais lentas.**
-
-## Problema antes da solução
-
-O NexoClima só é apresentado depois que o público compreende a dificuldade existente.
-
-## Problema → solução
-
-Cada funcionalidade está associada a uma necessidade concreta.
-
-## Cenário de uso
-
-A POC é apresentada através de uma situação hipotética de emergência climática.
-
-## Antes x depois
-
-Mostramos a diferença entre trabalhar com informações fragmentadas e utilizar uma visão integrada.
-
-## Uma mensagem por vez
-
-Cada etapa da apresentação responde a uma pergunta:
-
-1. **Qual é o contexto?**
-2. **Qual é o problema?**
-3. **Qual é o impacto?**
-4. **O que estamos propondo?**
-5. **Como funciona?**
-6. **Qual é o benefício?**
-
----
-
-# 15. Frases-chave para a apresentação
-
-> **“O problema não é a ausência de dados, mas a dificuldade de conectá-los.”**
-
-> **“Durante uma emergência, informação precisa chegar antes da decisão.”**
-
-> **“Cada funcionalidade da nossa solução responde a uma dificuldade identificada.”**
-
-> **“Não queremos apenas reunir dados, queremos transformar dados em informação útil.”**
-
-> **“O NexoClima aproxima o dado da decisão.”**
-
-> **“Menos tempo procurando informação. Mais tempo entendendo o cenário e agindo.”**
-
----
-
-# 16. Checklist da apresentação
-
-* [ ] O problema está claro antes da solução ser apresentada?
-* [ ] O público entende por que o problema é relevante?
-* [ ] As funcionalidades estão conectadas às necessidades?
-* [ ] A POC é apresentada através de um cenário?
-* [ ] A demonstração mostra um fluxo e não apenas telas?
-* [ ] O público consegue entender o benefício sem conhecer o sistema?
-* [ ] A apresentação possui uma sequência lógica?
-* [ ] O encerramento retoma o problema inicial?
-* [ ] A mensagem **“aproximar o dado da decisão”** aparece no fechamento?
-
----
-
-# 17. Resumo da história
-
-> Durante uma emergência climática, equipes técnicas precisam tomar decisões rápidas. Porém, as informações necessárias estão espalhadas em diferentes fontes.
->
-> Essa fragmentação gera trabalho manual, dificulta a compreensão do cenário e pode atrasar a resposta.
->
-> O **NexoClima** surge para integrar essas informações, apresentar o cenário de forma centralizada e transformar dados em apoio à decisão.
->
-> A POC demonstra esse fluxo por meio de **dashboards, mapas, alertas, boletins e acompanhamento de ações**.
->
-> Dessa forma, a solução busca aproximar o dado do momento em que ele realmente importa: **a tomada de decisão.**
-
----
-
-## **NexoClima**
 
 > ### **Dados que conectam informação, cenário e decisão.**

@@ -1,0 +1,8 @@
+Exp,Descrição,CV_média,CV_std
+5,Dias desde início + grupo (max_depth=12),0.8215,0.01124722187920202
+4,Dias desde início + grupo (max_depth=10),0.8155000000000001,0.007770135133960024
+6,max_depth=10 + min_samples_leaf=5,0.81275,0.0079608416640453
+3,Dias desde início + grupo (max_depth=8),0.81175,0.00257390753524676
+2,Dias desde início + grupo (max_depth=6),0.77075,0.007648529270389199
+1,Dias desde início + grupo (max_depth=4),0.707,0.0070089228844381225
+0,"Original (ano+mes, max_depth=4)",0.656,0.004568916720624266

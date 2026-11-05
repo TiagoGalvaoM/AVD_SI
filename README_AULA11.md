@@ -6,8 +6,6 @@
 
 ---
 
-## ✅ Status: ATIVIDADE CONCLUÍDA
-
 ### Resultados
 - ✅ Modelo salvo e carregado corretamente
 - ✅ Acurácia validada: **81.50%** (igual ao train.py)
@@ -36,7 +34,7 @@ etl-vacinacao-recife/
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 ### 1. Treinar e Salvar Modelo
 
@@ -78,7 +76,7 @@ SELECT * FROM gold_previsoes ORDER BY data_previsao DESC;
 
 ---
 
-## 🧪 Perfis de Teste Criados
+## Perfis de Teste Criados
 
 | # | Descrição | Idade | Dose | Data | Categoria Especial |
 |---|-----------|-------|------|------|--------------------|
@@ -136,56 +134,56 @@ Perfil 7 (Jovem início campanha):
 **⚠️ Baixa Confiança:**
 - Perfil 1 (Criança): 50% de confiança → modelo menos certo para 1ª dose pediátrica
 
-**🔧 Categorias Novas:**
+** Categorias Novas:**
 - Perfil 4 (DS INEXISTENTE): Modelo tratou como categoria desconhecida (zero em todas as dummies)
 - Perfil 5 (Data 2025): `dias_desde_inicio` muito alto → modelo extrapolou
 
 ---
 
-## 🔍 Validação dos Requisitos
+##  Validação dos Requisitos
 
-### ✅ Modelo Final do Grupo
+###  Modelo Final do Grupo
 - [x] Mesmo modelo da Aula 10 (max_depth=12)
 - [x] Mesmas features (dias_desde_inicio, grupo, idade, dose, etc.)
 - [x] Mesmos hiperparâmetros
 - [x] Acurácia mantida: 81.50%
 
-### ✅ Treino vs Previsão
+###  Treino vs Previsão
 - [x] `train.py` treina e termina com `salvar()`
 - [x] `prever.py` apenas carrega com `carregar()` e NUNCA treina
 - [x] Validação: acurácia do modelo carregado = acurácia do train.py
 
-### ✅ Preparação de Dados
+###  Preparação de Dados
 - [x] `preparar_entrada()` reproduz exatamente o `preparar()`
 - [x] Mesmas transformações (dias_desde_inicio, get_dummies, etc.)
 - [x] Mesmas colunas do treino (adiciona zeros para colunas faltantes)
 
-### ✅ Regras Mantidas
+###  Regras Mantidas
 - [x] Coluna `lote` NÃO utilizada
 - [x] Código em classes (`Classificador`, `Extract`, `Load`)
 - [x] `prever.py` apenas orquestra chamadas
 
-### ✅ Perfis de Teste
+###  Perfis de Teste
 - [x] Criança (perfil 1 e 6)
 - [x] Dose de reforço (perfil 2)
 - [x] Categoria inexistente (perfil 4)
 - [x] Data fora do período (perfil 5)
 - [x] Total: 7 perfis (>5 obrigatórios)
 
-### ✅ Camada Gold
+###  Camada Gold
 - [x] Tabela `gold_previsoes` criada
 - [x] Colunas: idade, sexo, distrito, dose, grupo, data_vacinacao, vacina_prevista, confianca, data_previsao
 - [x] Modo append (não sobrescreve)
 - [x] `data_previsao` preenchida automaticamente
 
-### ✅ .gitignore
+###  .gitignore
 - [x] `modelos/` no .gitignore
 - [x] `*.joblib` no .gitignore
 - [x] Arquivo `.joblib` NÃO vai para o GitHub
 
 ---
 
-## 🗂️ Schema da Tabela Gold
+##  Schema da Tabela Gold
 
 ```sql
 CREATE TABLE gold_previsoes (
@@ -250,7 +248,7 @@ CREATE TABLE gold_previsoes (
 
 ---
 
-## 🎓 Conclusão
+## Conclusão
 
 A atividade foi concluída com sucesso:
 
@@ -261,13 +259,3 @@ A atividade foi concluída com sucesso:
 5. ✅ Tabela `gold_previsoes` foi criada e populada
 6. ✅ Código foi organizado em classes reutilizáveis
 7. ✅ `.gitignore` protege o modelo de ir para o GitHub
-
-**Próximos passos:**
-- Explorar análises na camada Gold
-- Criar dashboards com as previsões
-- Avaliar performance do modelo em produção
-
----
-
-**Última atualização:** 29/10/2026
-**Status:** ✅ COMPLETO
